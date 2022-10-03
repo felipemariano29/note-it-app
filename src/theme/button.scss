@@ -1,0 +1,21 @@
+.button {
+
+  width: 326px;
+  height: 56px;
+
+  cursor: pointer;
+  transition: 300ms;
+
+  background-color: var(--primary);
+  color: white;
+
+  font-size: .5rem;
+  font-style: italic;
+
+  &:disabled {
+    opacity: .3;
+    pointer-events: none;
+    cursor: none;
+  }
+
+}
